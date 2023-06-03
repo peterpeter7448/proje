@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 18%;
+    border-bottom: 1px solid rgba(219,219,219,1);
+    background-color: white;
+    
+
+}
+header .log0{
+    height: 29px;
+}
+header .log0 img{
+    height: 100%;
+    object-fit: contain;
+}
+header .search-box{
+    width: 250px;
+    padding: 3px 16px;
+    display: flex;
+    align-items: center;
+
+}
+header .search-box input{
+    height: 35px ;
+    border: none;
+    outline: none;
+    background-color: rgba(239,239,239,1);
+    padding-left: 15px;
+    font-size: 18px;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+    margin: 25px;
+}
+header nav ul li:last-child{
+    margin-right: 0;
+}
+header nav ul li a i{
+    font-size: 27px;
+    color: black;
+}
+section{
+    padding: 10px 18%;
+    display: flex;
+
+}
+.left-side{
+    width: 100%;
+}
+
+.story{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid white;
+}
+.story .stores{
+    width: 25%
+}
+.story .stores a img{
+    border-radius: 60%;
+    border: 3px solid orangered;
+
+}
+.story .stores p{
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    align-items: p center;
+}
+
+
+
+
+
+
+
+
+
+
+.right-side{
+    width: 0;
+}
